@@ -1,0 +1,34 @@
+﻿1. PIERWSZE URUCHOMIENIE STRONY
+1.1 
+
+2. EDYCJA DANYCH
+2.1 Dostęp do panelu administratora
+Dostęp do panelu administratora znajduje się pod adresem:
+http://twoja-domena.pl/administrator
+login: admin
+hasło: admin
+2.2. Zmiana nazwy użytkownika i hasła
+Przy pierwszym logowaniu do panelu administratora mocno zalecamy zmianę nazwy 
+danych logownia do panelu administratora.
+Dopuki dane logowania nie zostaną zmienione w panelu administratora będzie
+wyświetlana czerwona belka zawierająca informację: "zmień hasło".
+
+3. NIETYPOWE SERWERY
+3.1 Dostęp do panelu admina.
+W niektórych przypadkach po instalacji na egzotycznych serwerach jeżeli nie
+ możesz uzyskać dostępu do panelu administratora poprzez link:
+http://twoja-domena.pl/administrator
+użyj pełnej ścieżki:
+http://twoja-domena.pl/administrator/index.php
+
+3.2 Ustawienia dostępu do plików.
+Po instalacji na egzotycznych serwerach i problemów z aktualizacją opisów 
+lub zmiany obrazków należy zmienić uprawnienia dla plików CHMOD na 755 
+(lub w przypadku dalszych problemów na 777) dla nastepujących folderów i plików:
+
+/images/
+/teksty/
+/szablony/nazwa-szablonu/images
+/galeria/
+/galeria/miniatury/
+/administrator/uzytkownik.php
