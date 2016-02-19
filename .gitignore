@@ -13,6 +13,9 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*.zip
+*.gitignore
+*.gitatributes
 
 # Windows shortcuts
 *.lnk
@@ -41,3 +44,4 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+_notes
