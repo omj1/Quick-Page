@@ -1,0 +1,32 @@
+1. FIRST START PAGE
+1.1
+
+2. DATA EDIT
+2.1 Access to the admin panel
+URL to control panel:
+http://your-domain.com/administrator
+login: admin
+password: admin
+2.2. Change the user name and password.
+When you log in first time into the admin panel it is strongly recommend to change login.
+Until your login will not be changed in the admin panel you will see 
+displayed red warning containing information: "Change password".
+
+3. UNUSUAL SERVERS
+3.1 Access to the admin panel.
+In some cases, installation script on exotic servers might require
+use the full path:
+http://twoja-domena.pl/administrator/index.php
+
+
+3.2 You can access the files.
+After installation on exotic servers and problems with the update descriptions
+or change the images change the permissions for files CHMOD 755
+(or in the case of further problems to 777) for the following folders and files:
+
+/images/
+/teksty/
+/szablony/nazwa-szablonu/images
+/galeria/
+/galeria/miniatury/
+/administrator/uzytkownik.php

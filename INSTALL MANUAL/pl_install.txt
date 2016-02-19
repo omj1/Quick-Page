@@ -1,4 +1,4 @@
-﻿1. PIERWSZE URUCHOMIENIE STRONY
+1. PIERWSZE URUCHOMIENIE STRONY
 1.1 
 
 2. EDYCJA DANYCH
@@ -22,8 +22,8 @@ użyj pełnej ścieżki:
 http://twoja-domena.pl/administrator/index.php
 
 3.2 Ustawienia dostępu do plików.
-Po instalacji na egzotycznych serwerach i problemów z aktualizacją opisów 
-lub zmiany obrazków należy zmienić uprawnienia dla plików CHMOD na 755 
+Po instalacji na egzotycznych serwerach i problemach z aktualizacją opisów 
+lub zmianą obrazków należy zmienić uprawnienia dla plików CHMOD na 755 
 (lub w przypadku dalszych problemów na 777) dla nastepujących folderów i plików:
 
 /images/
